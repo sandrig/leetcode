@@ -1,4 +1,4 @@
-# [Two Sum](https://leetcode.com/problems/two-sum/)
+# [Two Sum](https://leetcode.com/problems/ /)
 
 ## Description
 
@@ -48,7 +48,10 @@ function twoSum(nums: number[], target: number): number[] {
 }
 ```
 
-## Complexity
+## Complexity Analysis
 
-- Time: O(n)
-- Space: O(n)
+- Time complexity: _O(n)_
+  We traverse the list containing _n_ elements only once. Each lookup in the table costs only _O(1)_ time.
+
+- Space complexity: _O(n)_
+  The extra space required depends on the number of items stored in the hash table, which stores exactly _n_ elements.
