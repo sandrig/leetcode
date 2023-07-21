@@ -50,5 +50,5 @@ function twoSum(nums: number[], target: number): number[] {
 
 ## Complexity
 
-- Time Complexity: O(n)
-- Space Complexity: O(n)
+- Time: O(n)
+- Space: O(n)
