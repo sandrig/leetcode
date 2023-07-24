@@ -14,6 +14,7 @@
 
 ## Medium
 
-| #   | Problem                                                                 | Solution                                                                                                 | Time   | Space  | Tag                  |
-| --- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ------ | -------------------- |
-| 1   | [String Compression](https://leetcode.com/problems/string-compression/) | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/stringCompression/README.md) | _O(n)_ | _O(n)_ | Two Pointers, String |
+| #   | Problem                                                                 | Solution                                                                                                 | Time   | Space  | Tag                          |
+| --- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ------ | ---------------------------- |
+| 1   | [String Compression](https://leetcode.com/problems/string-compression/) | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/stringCompression/README.md) | _O(n)_ | _O(n)_ | Two Pointers, String         |
+| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)       | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/addTwoNumbers/README.md)     | _O(n)_ | _O(1)_ | Linked List, Math, Recursion |
