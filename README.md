@@ -14,7 +14,8 @@
 
 ## Medium
 
-| #   | Problem                                                                 | Solution                                                                                                 | Time   | Space  | Tag                          |
-| --- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ------ | ---------------------------- |
-| 1   | [String Compression](https://leetcode.com/problems/string-compression/) | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/stringCompression/README.md) | _O(n)_ | _O(n)_ | Two Pointers, String         |
-| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)       | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/addTwoNumbers/README.md)     | _O(n)_ | _O(1)_ | Linked List, Math, Recursion |
+| #   | Problem                                                                                   | Solution                                                                                                     | Time   | Space  | Tag                                         |
+| --- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------ | ------ | ------------------------------------------- |
+| 1   | [String Compression](https://leetcode.com/problems/string-compression/)                   | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/stringCompression/README.md)     | _O(n)_ | _O(n)_ | Two Pointers, String                        |
+| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                         | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/addTwoNumbers/README.md)         | _O(n)_ | _O(1)_ | Linked List, Math, Recursion                |
+| 3   | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/insertDeleteGetRandom/README.md) | _O(1)_ | _O(n)_ | Array, Hash Table, Math, Design, Randomized |
