@@ -44,14 +44,19 @@ class RandomizedSet {
   }
 
   insert(val: number): boolean {
-    if (this.map.has(val)) return false;
+    if (this.map.has(val)) {
+      return false;
+    }
+
     this.map.set(val, this.list.length);
     this.list.push(val);
     return true;
   }
 
   remove(val: number): boolean {
-    if (!this.map.has(val)) return false;
+    if (!this.map.has(val)) {
+      return false;
+    }
 
     const index = this.map.get(val) as number;
     const lastElement = this.list[this.list.length - 1];
