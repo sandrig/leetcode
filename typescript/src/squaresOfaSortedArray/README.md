@@ -50,4 +50,4 @@ function sortedSquares(nums: number[]): number[] {
 
 - Time complexity: _O(n)_
 
-- Space complexity: _O(1)_
+- Space complexity: _O(n)_
