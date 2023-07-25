@@ -34,6 +34,7 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 ## Solution
 
 ```typescript
+// Solution 1
 function isPalindrome(s: string): boolean {
   // Remove all characters except letters and numbers and convert to lowercase
   const cleanedString = s.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
@@ -47,6 +48,41 @@ function isPalindrome(s: string): boolean {
       return false;
     }
 
+    left++;
+    right--;
+  }
+
+  return true;
+}
+
+// Solution 2
+function isPalindrome(s: string): boolean {
+  // Function to check if a character is a letter or a digit
+  function isAlphanumeric(char: string): boolean {
+    const charCode = char.charCodeAt(0);
+    return (
+      (charCode >= 48 && charCode <= 57) || // Numbers 0-9
+      (charCode >= 65 && charCode <= 90) || // Letters A-Z
+      (charCode >= 97 && charCode <= 122) // Letters a-z
+    );
+  }
+
+  // Remove all characters except letters and numbers and convert the string to lowercase
+  let cleanedString = "";
+  for (let i = 0; i < s.length; i++) {
+    if (isAlphanumeric(s[i])) {
+      cleanedString += s[i].toLowerCase();
+    }
+  }
+
+  // Checking if the string being cleared is a palindrome
+  let left = 0;
+  let right = cleanedString.length - 1;
+
+  while (left < right) {
+    if (cleanedString[left] !== cleanedString[right]) {
+      return false;
+    }
     left++;
     right--;
   }
