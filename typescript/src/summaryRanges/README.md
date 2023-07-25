@@ -39,6 +39,7 @@ Explanation: The ranges are:
 ## Solution
 
 ```typescript
+// Solution 1
 function summaryRanges(nums: number[]): string[] {
   if (nums.length === 0) return [];
 
@@ -64,6 +65,32 @@ function summaryRanges(nums: number[]): string[] {
     result.push(`${start}`);
   } else {
     result.push(`${start}->${end}`);
+  }
+
+  return result;
+}
+
+// Solution 2
+function summaryRanges(nums: number[]): string[] {
+  const result: string[] = [];
+
+  let i = 0;
+  while (i < nums.length) {
+    let start = nums[i];
+    let end = start;
+
+    while (i + 1 < nums.length && nums[i + 1] === end + 1) {
+      end = nums[i + 1];
+      i++;
+    }
+
+    if (start === end) {
+      result.push(`${start}`);
+    } else {
+      result.push(`${start}->${end}`);
+    }
+
+    i++;
   }
 
   return result;
