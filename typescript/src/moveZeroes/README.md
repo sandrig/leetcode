@@ -22,6 +22,32 @@ Output: [0]
 
 ## Solution
 
+Solution #1
+
+Yes, if we have an input array of 1 billion zeros with only one '1' at the end, the proposed solution with two passes through the array may be inefficient, especially if such data occurs frequently. We can improve the algorithm to solve this task in a single pass (see Solution #2).
+
+```typescript
+function moveZeroes(nums: number[]): void {
+  let nonZeroIndex = 0;
+
+  // First, move all non-zero elements to the front of the array
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] !== 0) {
+      nums[nonZeroIndex] = nums[i];
+      nonZeroIndex++;
+    }
+  }
+
+  // Then, fill the rest of the array with zeroes
+  while (nonZeroIndex < nums.length) {
+    nums[nonZeroIndex] = 0;
+    nonZeroIndex++;
+  }
+}
+```
+
+Solution #2
+
 ```typescript
 function moveZeroes(nums: number[]): void {
   let nonZeroIndex = 0;
