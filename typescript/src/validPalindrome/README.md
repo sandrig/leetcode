@@ -57,6 +57,11 @@ function isPalindrome(s: string): boolean {
 }
 ```
 
+## Complexity Analysis
+
+- Time complexity: _O(n)_
+- Space complexity: _O(n)_
+
 Solution #2
 
 ```typescript
@@ -98,5 +103,4 @@ function isPalindrome(s: string): boolean {
 ## Complexity Analysis
 
 - Time complexity: _O(n)_
-
 - Space complexity: _O(n)_
