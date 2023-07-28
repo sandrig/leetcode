@@ -47,5 +47,5 @@ function maximumProduct(nums: number[]): number {
 
 ## Complexity Analysis
 
-- Time complexity: _O(n)_
+- Time complexity: _O(nlogn)_
 - Space complexity: _O(1)_
