@@ -13,6 +13,7 @@
 | 7   | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                           | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/reverseLinkedList/README.md)            | _O(n)_     | _O(1)_ | Linked List, Recursion       |
 | 8   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/validParentheses/README.md)             | _O(n)_     | _O(n)_ | String, Stack                |
 | 9   | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/maximumProductofThreeNumbers/README.md) | _O(nlogn)_ | _O(1)_ | Array, Math, Sorting         |
+| 10  | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)             | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/maximumAverageSubarrayI/README.md)      | _O(n)_     | _O(1)_ | Array, Sliding Window        |
 
 ## Medium
 
