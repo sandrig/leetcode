@@ -8,7 +8,7 @@ describe("Maximum Average Subarray I", () => {
 
     const nums2 = [5, 7, 2, 8, 9, 1, 3];
     const k2 = 3;
-    expect(findMaxAverage(nums2, k2)).toBeCloseTo(8);
+    expect(findMaxAverage(nums2, k2)).toBeCloseTo(6.33);
 
     const nums3 = [0, 0, 0, 0, 0];
     const k3 = 3;
@@ -28,10 +28,10 @@ describe("Maximum Average Subarray I", () => {
   it("should return 0 when k is greater than the length of the input array", () => {
     const nums6 = [10, 20, 30, 40, 50];
     const k6 = 6;
-    expect(findMaxAverage(nums6, k6)).toBeCloseTo(0);
+    expect(findMaxAverage(nums6, k6)).toBe(0);
 
     const nums7: number[] = [];
     const k7 = 1;
-    expect(findMaxAverage(nums7, k7)).toBeCloseTo(0);
+    expect(findMaxAverage(nums7, k7)).toBe(0);
   });
 });
