@@ -4,7 +4,7 @@ describe("Maximum Average Subarray I", () => {
   it("should return the maximum average for a valid input array", () => {
     const nums1 = [1, 12, -5, -6, 50, 3];
     const k1 = 4;
-    expect(findMaxAverage(nums1, k1)).toBeCloseTo(12.75); // Ожидаемое значение с плавающей точкой, поэтому используем toBeCloseTo()
+    expect(findMaxAverage(nums1, k1)).toBeCloseTo(12.75);
 
     const nums2 = [5, 7, 2, 8, 9, 1, 3];
     const k2 = 3;
