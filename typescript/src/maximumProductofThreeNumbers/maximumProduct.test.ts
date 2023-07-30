@@ -7,7 +7,7 @@ describe("Maximum Product of Three Numbers", () => {
       { input: [1, 2, 3, 4], output: 24 },
       { input: [-1, -2, -3], output: -6 },
       { input: [-1, -2, -3, 0], output: 0 },
-      { input: [10, -10, 1, 2, 3], output: 300 },
+      { input: [10, -10, 1, 2, 3], output: 60 },
     ];
 
     for (const testCase of testCases) {

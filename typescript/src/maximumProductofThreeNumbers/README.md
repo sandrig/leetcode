@@ -29,6 +29,10 @@ Output: -6
 
 ```typescript
 function maximumProduct(nums: number[]): number {
+  if (nums.length < 3) {
+    return 0;
+  }
+
   // First sort the array in ascending order
   nums.sort((a, b) => a - b);
 
