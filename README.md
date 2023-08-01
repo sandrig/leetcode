@@ -15,6 +15,7 @@
 | 9   | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/maximumProductofThreeNumbers/README.md) | _O(nlogn)_ | _O(1)_         | Array, Math, Sorting                                    |
 | 10  | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)             | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/maximumAverageSubarrayI/README.md)      | _O(n)_     | _O(1)_         | Array, Sliding Window                                   |
 | 11  | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)       | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/intersectionOfTwoArraysII/README.md)    | _O(n + m)_ | _O(min(n, m))_ | Array, Hash Table, Two Pointers, Binary Search, Sorting |
+| 12  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                           | [TypeScript](https://github.com/sandrig/leetcode/blob/master/typescript/src/validPalindromeII/README.md)            | _O(n)_     | _O(1)_         | Two Pointers, String Greedy                             |
 
 ## Medium
 
